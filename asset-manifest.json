@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/AlexMlt29/P12.OpenClassRooms/static/css/main.6f7ccbc0.css",
-    "main.js": "/AlexMlt29/P12.OpenClassRooms/static/js/main.67aa204a.js",
-    "static/js/453.1407b060.chunk.js": "/AlexMlt29/P12.OpenClassRooms/static/js/453.1407b060.chunk.js",
-    "static/media/devicon.svg?iehcku": "/AlexMlt29/P12.OpenClassRooms/static/media/devicon.de33ff67547800466a48.svg",
-    "static/media/print-it.png": "/AlexMlt29/P12.OpenClassRooms/static/media/print-it.7107ab3c882325307471.png",
-    "static/media/devicon.woff?iehcku": "/AlexMlt29/P12.OpenClassRooms/static/media/devicon.25bdb9cbf8e5f9b4dde9.woff",
-    "static/media/devicon.ttf?iehcku": "/AlexMlt29/P12.OpenClassRooms/static/media/devicon.161b6f3376d6ce5c517d.ttf",
-    "static/media/ohmyfood.png": "/AlexMlt29/P12.OpenClassRooms/static/media/ohmyfood.796c1be4f7f01766f170.png",
-    "static/media/background.jpg": "/AlexMlt29/P12.OpenClassRooms/static/media/background.a00bcb271ec34147b05b.jpg",
-    "static/media/Bartender-Cocktail.ttf": "/AlexMlt29/P12.OpenClassRooms/static/media/Bartender-Cocktail.166ffb13ca2749e5c377.ttf",
-    "static/media/DREAMS.ttf": "/AlexMlt29/P12.OpenClassRooms/static/media/DREAMS.bd89a2841d78f2b6ea3b.ttf",
-    "index.html": "/AlexMlt29/P12.OpenClassRooms/index.html",
-    "main.6f7ccbc0.css.map": "/AlexMlt29/P12.OpenClassRooms/static/css/main.6f7ccbc0.css.map",
-    "main.67aa204a.js.map": "/AlexMlt29/P12.OpenClassRooms/static/js/main.67aa204a.js.map",
-    "453.1407b060.chunk.js.map": "/AlexMlt29/P12.OpenClassRooms/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/P12.OpenClassRooms/static/css/main.8105777d.css",
+    "main.js": "/P12.OpenClassRooms/static/js/main.2df1483b.js",
+    "static/js/453.1407b060.chunk.js": "/P12.OpenClassRooms/static/js/453.1407b060.chunk.js",
+    "static/media/devicon.svg?iehcku": "/P12.OpenClassRooms/static/media/devicon.de33ff67547800466a48.svg",
+    "static/media/print-it.png": "/P12.OpenClassRooms/static/media/print-it.7107ab3c882325307471.png",
+    "static/media/devicon.woff?iehcku": "/P12.OpenClassRooms/static/media/devicon.25bdb9cbf8e5f9b4dde9.woff",
+    "static/media/devicon.ttf?iehcku": "/P12.OpenClassRooms/static/media/devicon.161b6f3376d6ce5c517d.ttf",
+    "static/media/ohmyfood.png": "/P12.OpenClassRooms/static/media/ohmyfood.796c1be4f7f01766f170.png",
+    "static/media/background.jpg": "/P12.OpenClassRooms/static/media/background.a00bcb271ec34147b05b.jpg",
+    "static/media/Bartender-Cocktail.ttf": "/P12.OpenClassRooms/static/media/Bartender-Cocktail.166ffb13ca2749e5c377.ttf",
+    "static/media/DREAMS.ttf": "/P12.OpenClassRooms/static/media/DREAMS.bd89a2841d78f2b6ea3b.ttf",
+    "index.html": "/P12.OpenClassRooms/index.html",
+    "main.8105777d.css.map": "/P12.OpenClassRooms/static/css/main.8105777d.css.map",
+    "main.2df1483b.js.map": "/P12.OpenClassRooms/static/js/main.2df1483b.js.map",
+    "453.1407b060.chunk.js.map": "/P12.OpenClassRooms/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f7ccbc0.css",
-    "static/js/main.67aa204a.js"
+    "static/css/main.8105777d.css",
+    "static/js/main.2df1483b.js"
   ]
 }
