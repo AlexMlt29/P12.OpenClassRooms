@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Bartender-Cocktail';
+  src: url('../../portfolio/src/Fonts/Bartender-Cocktail.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DREAMS';
+  src: url('../../portfolio/src/Fonts/DREAMS.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: 'Bartender-Cocktail', sans-serif;
+}
+
+section {
+  display: flex;
+}

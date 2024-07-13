@@ -1,0 +1,80 @@
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-title {
+  font-family: "DREAMS", sans-serif;
+  font-size: 8px;
+  color: #333;
+  letter-spacing: 10px;
+  text-align: center;
+  margin: 0;
+  padding: 25% 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  padding-bottom: 15%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  letter-spacing: 3px;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #333;
+}
+
+.contact-confirmation {
+  font-size: 20px;
+  color: #333;
+  letter-spacing: 3px;
+  text-align: center;
+  padding-bottom: 15%;
+}
+
+@media (max-width: 800px) {
+  .contact-title {
+    padding-top: 12%;
+    font-size: 6px;
+    letter-spacing: 5px;
+    padding: 10% 0;
+  }
+}

@@ -1,0 +1,146 @@
+.presentation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 5%;
+}
+
+.presentation-title {
+  font-family: "DREAMS", sans-serif;
+  font-size: 8px;
+  color: #333;
+  letter-spacing: 10px;
+  text-align: center;
+  padding: 5% 0;
+}
+
+.presentation-content {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  letter-spacing: 3px;
+}
+
+.experience {
+  padding-top: 5%;
+  width: 100%;
+}
+
+.experience-title {
+  font-family: "DREAMS", sans-serif;
+  font-size: 8px;
+  color: #333;
+  letter-spacing: 10px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.skill-icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skill-icon .list-inline-item {
+  margin: 10px;
+}
+
+.skills-tile {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+}
+
+.skills-tile:hover {
+  transform: scale(1.1);
+}
+
+.skills-tile i {
+  font-size: 500%;
+  color: white;
+}
+
+.skills-tile p {
+  font-size: 100%;
+  color: white;
+  margin-top: 4px;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 1100px) {
+  .presentation-title {
+    padding-top: 8%;
+  }
+
+  .presentation-content {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 6%;
+  }
+
+  .skills-tile {
+    width: 120px;
+    height: 120px;
+  }
+
+  .skills-tile i {
+    font-size: 400%;
+    color: white;
+  }
+  
+  .skills-tile p {
+    font-size: 90%;
+    color: white;
+    margin-top: 4px;
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 800px) {
+  .presentation-title {
+    padding-top: 8%;
+    font-size: 6px;
+    letter-spacing: 5px;
+  }
+
+  .presentation-content {
+    font-size: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .experience-title {
+    font-size: 6px;
+    letter-spacing: 5px;
+  }
+
+  .skills-tile {
+    width: 80px;
+    height: 80px;
+  }
+
+  .skills-tile i {
+    font-size: 200%;
+    color: white;
+  }
+  
+  .skills-tile p {
+    font-size: 60%;
+    letter-spacing: 1.5px;
+  }
+}
