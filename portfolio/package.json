@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alexmlt29.github.io/P12.OpenClassRooms",
+  "homepage": "https://delightful-dusk-e8398c.netlify.app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -22,7 +22,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy:gh-pages": "gh-pages -d build",
+    "deploy:netlify": "npm run build"
   },
   "eslintConfig": {
     "extends": [
