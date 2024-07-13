@@ -13,7 +13,7 @@ const Presentation = () => {
         </p>
         <div className="experience">
           <div className="container">
-            <h2 className="experience-title">EXPERIENCE</h2>
+            <h2 className="experience-title">EXPÉRIENCE</h2>
             <div className="row">
               <div className="col-md-12 text-center">
                 <ul className="list-inline mx-auto skill-icon">
