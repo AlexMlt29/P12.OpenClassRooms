@@ -14,7 +14,7 @@ const Realisation = () => {
               <img src={img1} alt="Un screenshot de la homepage du projet 4 OhMyFood." />
               <div className="card-content">
                 <div className="card-txt">
-                  <h3 className="card-title">Projet 4 - OhMyFood</h3>
+                  <h3 className="card-title">Projet - OhMyFood</h3>
                 </div>
               </div>
             </article>
@@ -24,7 +24,7 @@ const Realisation = () => {
               <img src={img2} alt="Un screenshot de la homepage du projet 5 Print it." />
               <div className="card-content">
                 <div className="card-txt">
-                  <h3 className="card-title">Projet 5 - Print it</h3>
+                  <h3 className="card-title">Projet - Print it</h3>
                 </div>
               </div>
             </article>
