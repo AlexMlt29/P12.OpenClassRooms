@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AlexMlt29/P12.OpenClassRooms/static/css/main.6f7ccbc0.css",
-    "main.js": "/AlexMlt29/P12.OpenClassRooms/static/js/main.60fee5d5.js",
+    "main.js": "/AlexMlt29/P12.OpenClassRooms/static/js/main.67aa204a.js",
     "static/js/453.1407b060.chunk.js": "/AlexMlt29/P12.OpenClassRooms/static/js/453.1407b060.chunk.js",
     "static/media/devicon.svg?iehcku": "/AlexMlt29/P12.OpenClassRooms/static/media/devicon.de33ff67547800466a48.svg",
     "static/media/print-it.png": "/AlexMlt29/P12.OpenClassRooms/static/media/print-it.7107ab3c882325307471.png",
@@ -13,11 +13,11 @@
     "static/media/DREAMS.ttf": "/AlexMlt29/P12.OpenClassRooms/static/media/DREAMS.bd89a2841d78f2b6ea3b.ttf",
     "index.html": "/AlexMlt29/P12.OpenClassRooms/index.html",
     "main.6f7ccbc0.css.map": "/AlexMlt29/P12.OpenClassRooms/static/css/main.6f7ccbc0.css.map",
-    "main.60fee5d5.js.map": "/AlexMlt29/P12.OpenClassRooms/static/js/main.60fee5d5.js.map",
+    "main.67aa204a.js.map": "/AlexMlt29/P12.OpenClassRooms/static/js/main.67aa204a.js.map",
     "453.1407b060.chunk.js.map": "/AlexMlt29/P12.OpenClassRooms/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f7ccbc0.css",
-    "static/js/main.60fee5d5.js"
+    "static/js/main.67aa204a.js"
   ]
 }
