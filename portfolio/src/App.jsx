@@ -6,10 +6,10 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/P12.OpenClassRooms">
       <div>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
         </Routes>
       </div>
       <Footer />
