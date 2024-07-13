@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/P12.OpenClassRooms">
+    <Router>
       <div>
         <Routes>
           <Route exact path="/" element={<Home />} />
