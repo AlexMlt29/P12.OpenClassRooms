@@ -70,6 +70,54 @@
   font-size: 25px;
 }
 
+.projet-card .card-description {
+  padding: 5%;
+  letter-spacing: 2.5px;
+  color: #333;
+  font-size: 20px;
+}
+
+.skill-icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skill-icon .list-inline-item {
+  margin: 10px;
+}
+
+.skills-tile {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+}
+
+.skills-tile:hover {
+  transform: scale(1.1);
+}
+
+.skills-tile i {
+  font-size: 250%;
+  color: white;
+}
+
+.skills-tile p {
+  font-size: 70%;
+  color: white;
+  margin-top: 4px;
+  letter-spacing: 3px;
+}
+
 @media (max-width: 1100px) {
   .realisation-title {
     padding-top: 8%;
@@ -85,6 +133,24 @@
     width: 100%;
     height: 280px;
   }
+
+  .skills-tile {
+    width: 90px;
+    height: 90px;
+  }
+
+  .skills-tile i {
+    font-size: 170%;
+  }
+  
+  .skills-tile p {
+    font-size: 60%;
+  }
+  
+  .projet-card .card-description {
+    letter-spacing: 2px;
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -95,9 +161,9 @@
 
   .projet-card {
     gap: 30px;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-bottom: 8%;
+    padding: 4%;
+    padding-top: 8%;
+    padding-bottom: 12%;
   }
 
   .projet-card img {
@@ -111,5 +177,24 @@
     letter-spacing: 1.5px;
     font-size: 15px;
     text-align: center;
+  }
+
+  .skills-tile {
+    width: 65px;
+    height: 65px;
+  }
+
+  .skills-tile i {
+    font-size: 130%;
+  }
+  
+  .skills-tile p {
+    font-size: 20%;
+    letter-spacing: 1.5px;
+  }
+  
+  .projet-card .card-description {
+    letter-spacing: 1px;
+    font-size: 11px;
   }
 }

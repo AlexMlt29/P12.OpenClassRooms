@@ -15,6 +15,33 @@ const Realisation = () => {
               <div className="card-content">
                 <div className="card-txt">
                   <h3 className="card-title">Projet - OhMyFood</h3>
+                  <ul className="list-inline mx-auto skill-icon">
+                    <li className="list-inline-item mx-3">
+                      <span>
+                        <div className="text-center skills-tile">
+                          <i className="devicon-html5-plain"></i>
+                          <p className="text-center">HTML 5</p>
+                        </div>
+                      </span>
+                    </li>
+                    <li className="list-inline-item mx-3">
+                      <span>
+                        <div className="text-center skills-tile">
+                          <i className="devicon-css3-plain"></i>
+                          <p className="text-center">CSS 3</p>
+                        </div>
+                      </span>
+                    </li>
+                    <li className="list-inline-item mx-3">
+                      <span>
+                        <div className="text-center skills-tile">
+                          <i className="devicon-sass-original"></i>
+                          <p className="text-center">SASS</p>
+                        </div>
+                      </span>
+                    </li>
+                    <p className="card-description">"OhMyFood" est mon premier projet en SASS, visant à créer une application web dynamique et responsive pour des restaurants. Le projet a été réalisé en suivant des étapes structurées, chacune apportant des fonctionnalités pour améliorer l'expérience utilisateur.</p>
+                  </ul>
                 </div>
               </div>
             </article>
@@ -25,6 +52,33 @@ const Realisation = () => {
               <div className="card-content">
                 <div className="card-txt">
                   <h3 className="card-title">Projet - Print it</h3>
+                  <ul className="list-inline mx-auto skill-icon">
+                    <li className="list-inline-item mx-3">
+                      <span>
+                        <div className="text-center skills-tile">
+                          <i className="devicon-html5-plain"></i>
+                          <p className="text-center">HTML 5</p>
+                        </div>
+                      </span>
+                    </li>
+                    <li className="list-inline-item mx-3">
+                      <span>
+                        <div className="text-center skills-tile">
+                          <i className="devicon-css3-plain"></i>
+                          <p className="text-center">CSS 3</p>
+                        </div>
+                      </span>
+                    </li>
+                    <li className="list-inline-item mx-3">
+                      <span>
+                        <div className="text-center skills-tile">
+                          <i className="devicon-javascript-plain"></i>
+                          <p className="text-center">JAVASCRIPT</p>
+                        </div>
+                      </span>
+                    </li>
+                  </ul>
+                  <p className="card-description">"Print It !" est mon premier projet en JavaScript, visant à créer un carrousel d'images interactif et dynamique. Le projet a été réalisé en suivant une série d'étapes structurées, chacune apportant des fonctionnalités spécifiques pour améliorer l'expérience utilisateur.</p>
                 </div>
               </div>
             </article>
