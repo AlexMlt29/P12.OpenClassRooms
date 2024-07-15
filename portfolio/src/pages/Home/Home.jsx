@@ -3,6 +3,7 @@ import Presentation from "../../components/Presentation/Presentation";
 import Realisation from "../../components/Realisation/Realisation";
 import Contact from "../../components/Contact/Contact";
 import Header from "../../components/Header/Header";
+import Footer from './components/Footer/Footer';
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <section id="contact" className="section">
         <Contact />
       </section>
+      <Footer />
     </div>
   );
 }
