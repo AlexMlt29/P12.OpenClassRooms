@@ -3,7 +3,7 @@ import Presentation from "../../components/Presentation/Presentation";
 import Realisation from "../../components/Realisation/Realisation";
 import Contact from "../../components/Contact/Contact";
 import Header from "../../components/Header/Header";
-import Footer from './components/Footer/Footer';
+import Footer from '../../components/Footer/Footer';
 
 function Home() {
   return (
