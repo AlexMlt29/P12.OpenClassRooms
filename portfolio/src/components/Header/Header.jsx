@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import anime from "animejs";
-import image from '../../images/background.jpg';
+import image from '../../images/background.webp';
 import "./Header.css";
 
 const Header = () => {
@@ -8,24 +7,45 @@ const Header = () => {
 
   useEffect(() => {
     const textWrapper = textRef.current;
-    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+    const textContent = textWrapper.textContent;
+    textWrapper.innerHTML = textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+    const letters = textWrapper.querySelectorAll('.letter');
 
-    anime.timeline({ loop: true })
-      .add({
-        targets: '.ml2 .letter',
-        scale: [4, 1],
-        opacity: [0, 1],
-        translateZ: 0,
-        easing: "easeOutExpo",
-        duration: 950,
-        delay: (el, i) => 70 * i
-      }).add({
-        targets: '.ml2',
-        opacity: 0,
-        duration: 5000,
-        easing: "easeOutExpo",
-        delay: 4000
+    let animationFrame;
+    let direction = 1;
+    const duration = 950;
+
+    const animate = (time, startTime) => {
+      const elapsedTime = time - startTime;
+      letters.forEach((letter, index) => {
+        const delay = index * 70;
+        let progress = Math.min(1, Math.max(0, (elapsedTime - delay) / duration));
+        if (direction === -1) progress = 1 - progress;
+        const scale = 4 - 3 * progress;
+        const opacity = progress;
+        letter.style.transform = `scale(${scale})`;
+        letter.style.opacity = opacity;
       });
+
+      if (elapsedTime < letters.length * 70 + duration) {
+        animationFrame = requestAnimationFrame((newTime) => animate(newTime, startTime));
+      } else {
+        direction *= -1;
+        setTimeout(() => {
+          animationFrame = requestAnimationFrame((newTime) => animate(newTime, performance.now()));
+        }, 4000);
+      }
+    };
+
+    const startAnimation = () => {
+      animationFrame = requestAnimationFrame((time) => animate(time, time));
+    };
+
+    startAnimation();
+
+    return () => {
+      cancelAnimationFrame(animationFrame);
+    };
   }, []);
 
   const handleScroll = (e, target) => {
