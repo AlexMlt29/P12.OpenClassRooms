@@ -1,11 +1,11 @@
 import React from "react";
 
-const SkillItem = ({ icon, name }) => (
+const SkillItem = ({ iconClass, skillName }) => (
   <li className="list-inline-item mx-3">
     <span>
       <div className="text-center skills-tile">
-        <i className={icon}></i>
-        <p className="text-center">{name}</p>
+        <i className={iconClass}></i>
+        <p className="text-center">{skillName}</p>
       </div>
     </span>
   </li>
